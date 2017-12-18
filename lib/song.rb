@@ -5,11 +5,11 @@ class Song
     @name = name
   end
 
-  def name=(name = nil)
+  def self.name=(name = nil)
     @name = name
   end
 
-  def name
+  def self.name
     @name
   end
 
